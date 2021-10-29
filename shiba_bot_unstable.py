@@ -4,7 +4,7 @@ from telebot import types
 from PIL import Image, ImageDraw, ImageFont
 
 
-bot = telebot.TeleBot('1603779921:AAF2pSSIS0cyOHZk-RslHWGQKPUU4PrqW7g')
+bot = telebot.TeleBot('')
 
 joinedfile = open(r"C:\Program Files (x86)\shibabot\users_id\users.txt", "r")
 joinedusers = set()
